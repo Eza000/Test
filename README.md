@@ -8,13 +8,13 @@ Parce qu’il n’y avait pas assez de données sur les Français descendants d�
 Un autre sujet qui me tient à cœur est mon âge. Je suis sur le point d’avoir 26 ans et je me rends compte que les musées vont devenir payants pour moi. Je n’aime même pas allez au musée, sauf le Musée d’Orsay, bien sûr.
 
 Cela ne m’empêche pas de me poser quelques questions :
-    -	Combien il y a-t-il de musée dans la ville de Paris (où j’habite) ?
-    -	Lesquels sont-ils ?
-    -	Quel est le profil des gens qui les fréquentent ? 
-            o	Quel groupe d’âge visite le plus les musées ? 
-            o	Il y a-t-il plus de femmes que d’hommes ?
-            o	Est-ce que l’envie d’aller au musée à un rapport avec le niveau et le domaine d’études ?
-            o	Il y a-t-il plus de Parisiens que touristes ?
+* Combien il y a-t-il de musée dans la ville de Paris (où j’habite) ?
+* Lesquels sont-ils ?
+* Quel est le profil des gens qui les fréquentent ? 
+    * Quel groupe d’âge visite le plus les musées ? 
+    * Il y a-t-il plus de femmes que d’hommes ?
+    * Est-ce que l’envie d’aller au musée à un rapport avec le niveau et le domaine d’études ?
+    * Il y a-t-il plus de Parisiens que touristes ?
 
 # Comment répondre à ces question ? Avec l’Open Data ! Peut-être…
 
@@ -36,28 +36,21 @@ Que faire ? Consulter les 96 liens et vérifier, pour chacun, s’il s’agit bi
 Go sur Wikidata !
 
 ```sparql
+# Listes des musées situés à Paris, leurs coordonnées géographiques et leurs images
 #defaultView:ImageGrid
-SELECT
-  ?arr
-  (SAMPLE (?titleL) AS ?title)
-  (SAMPLE (?img) AS ?image)
-  (SAMPLE (?coord) AS ?coordinates) {
+SELECT ?musee ?museeLabel ?coordonnees ?image
+WHERE {
+  ?musee wdt:P31/wdt:P279* wd:Q33506. # Instance of: musée (Q33506) or subclass of museum
+  ?musee wdt:P131 wd:Q90. # Located in: Paris (Q90)
 
-    {
-      SELECT DISTINCT ?arr {
-        ?arr  wdt:P131 wd:Q90;}
-    }
-    # title
-    OPTIONAL { ?arr rdfs:label ?titleL filter (lang(?titleL) = "fr") }
-   
-    # image
-    OPTIONAL { ?arr wdt:P18 ?img }
-   
-    # coordinates
-    OPTIONAL { ?arr wdt:P625 ?coord }
+  OPTIONAL {
+    ?musee wdt:P625 ?coordonnees. # Coordinates
+    ?museum wdt:P18 ?image.
+  }
 
-} GROUP BY ?arr
-LIMIT 1500 
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+ORDER BY ?museeLabel
 ```
 
 
