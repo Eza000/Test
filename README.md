@@ -25,6 +25,7 @@ La plateforme open data de la Région Île-de-France m’a fourni un jeu de donn
 Avec un filtre sur OpenRefine je me suis retrouvée avec les 49 musées dans le département de Paris. Ou plutôt, les 49 « institutions dotées de l'appellation "Musée de France" au sens du Code du patrimoine. »
 
 *Ici : Map des Musées de France à Paris*
+<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/new/?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&fullscreenControl=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/new/?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&fullscreenControl=true">Voir en plein écran</a></p>
 
 
 Mais alors, combien est-ce qu'il y a vraiment de musées dans la ville de Paris ?
