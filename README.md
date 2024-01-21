@@ -24,8 +24,6 @@ La plateforme open data de la Région Île-de-France m’a fourni un jeu de donn
 
 Avec un filtre sur OpenRefine je me suis retrouvée avec les 49 musées dans le département de Paris. Ou plutôt, les 49 « institutions dotées de l'appellation "Musée de France" au sens du Code du patrimoine. »
 
-*Ici : Map des Musées de France à Paris*
-<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
 
 
 Mais alors, combien est-ce qu'il y a vraiment de musées dans la ville de Paris ?
@@ -37,35 +35,24 @@ Que faire ? Consulter les 96 liens et vérifier, pour chacun, s’il s’agit bi
 Go sur Wikidata !
 
 ```sparql
-# Listes des musées situés à Paris, leurs coordonnées géographiques et leurs images
-#defaultView:ImageGrid
-SELECT ?musee ?museeLabel ?coordonnees ?image
-WHERE {
-  ?musee wdt:P31/wdt:P279* wd:Q33506. # Instance of: musée (Q33506) or subclass of museum
-  ?musee wdt:P131 wd:Q90. # Located in: Paris (Q90)
-
-  OPTIONAL {
-    ?musee wdt:P625 ?coordonnees. # Coordinates
-    ?museum wdt:P18 ?image.
-  }
-
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-}
-ORDER BY ?museeLabel
+# Listes des musées situés à Paris,
+...
 ```
 
 
-<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&datalayers=3127665%2C3127666"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&datalayers=3127665%2C3127666">Voir en plein écran</a></p>
-
-
 ## Première visualisation
-Analyse
+*Ici : Map des Musées de France à Paris*
+<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
 
 ## Deuxième visualisation
+*Ici : Fréq des Musées de France à Paris*
 <div class="flourish-embed flourish-chart" data-src="visualisation/16527002"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Troisième visualisation
+*Ici : Timeline des à Paris*
 Analyse
+
+
 
 # Conclusion
 Conclusion générale
