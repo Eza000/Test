@@ -58,23 +58,11 @@ ORDER BY ?museeLabel
 <iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&datalayers=3127665%2C3127666"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&datalayers=3127665%2C3127666">Voir en plein écran</a></p>
 
 
-
-# Jeu de données
-Les jeux de données utilisés : ...
-
-
-
-
-# OpenRefine & WikiData
-Utilisation d'OpenRefine et WikiData
-
-# Les Visualisations
-
 ## Première visualisation
 Analyse
 
 ## Deuxième visualisation
-Analyse
+<div class="flourish-embed flourish-chart" data-src="visualisation/16527002"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Troisième visualisation
 Analyse
