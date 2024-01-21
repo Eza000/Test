@@ -25,7 +25,7 @@ La plateforme open data de la Région Île-de-France m’a fourni un jeu de donn
 Avec un filtre sur OpenRefine je me suis retrouvée avec les 49 musées dans le département de Paris. Ou plutôt, les 49 « institutions dotées de l'appellation "Musée de France" au sens du Code du patrimoine. »
 
 *Ici : Map des Musées de France à Paris*
-<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/new/?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&fullscreenControl=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/new/?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&fullscreenControl=true">Voir en plein écran</a></p>
+<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
 
 
 Mais alors, combien est-ce qu'il y a vraiment de musées dans la ville de Paris ?
@@ -55,14 +55,14 @@ ORDER BY ?museeLabel
 ```
 
 
-<iframe style="width: 55vw; height: 50vh; border: none;" src="https://query.wikidata.org/#%23%20Listes%20des%20mus%C3%A9es%20situ%C3%A9s%20%C3%A0%20Paris%2C%20leurs%20coordonn%C3%A9es%20g%C3%A9ographiques%20et%20leurs%20images%0A%23defaultView%3AImageGrid%0ASELECT%20%3Fmusee%20%3FmuseeLabel%20%3Fcoordonnees%20%3Fimage%0AWHERE%20%7B%0A%20%20%3Fmusee%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ33506.%20%23%20Instance%20of%3A%20mus%C3%A9e%20%28Q33506%29%20or%20subclass%20of%20museum%0A%20%20%3Fmusee%20wdt%3AP131%20wd%3AQ90.%20%23%20Located%20in%3A%20Paris%20%28Q90%29%0A%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fmusee%20wdt%3AP625%20%3Fcoordonnees.%20%23%20Coordinates%0A%20%20%20%20%3Fmuseum%20wdt%3AP18%20%3Fimage.%0A%20%20%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AORDER%20BY%20%3FmuseeLabel" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&datalayers=3127665%2C3127666"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=true&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true&datalayers=3127665%2C3127666">Voir en plein écran</a></p>
 
 
 
 # Jeu de données
 Les jeux de données utilisés : ...
 
-<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
+
 
 
 # OpenRefine & WikiData
