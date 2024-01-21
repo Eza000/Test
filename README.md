@@ -62,7 +62,7 @@ ORDER BY ?museeLabel
 # Jeu de données
 Les jeux de données utilisés : ...
 
-<iframe style="width: 55vw; height: 50vh; border: none;" src="https://umap.openstreetmap.fr/fr/map/anonymous-edit/1012704:kENiXFDAxkGvq7OnA8wJdp0jXJTO1YuJgahJUit8--w" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+<iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/test2_1012705?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
 
 
 # OpenRefine & WikiData
