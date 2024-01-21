@@ -51,6 +51,34 @@ Go sur Wikidata !
 ## Troisième visualisation
 *Ici : Timeline des à Paris*
 Analyse
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <script type="text/javascript">
+    google.charts.load("current", {packages:["timeline"]});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var container = document.getElementById('example7.1');
+      var chart = new google.visualization.Timeline(container);
+      var dataTable = new google.visualization.DataTable();
+      dataTable.addColumn({ type: 'string', id: 'Room' });
+      dataTable.addColumn({ type: 'string', id: 'Name' });
+      dataTable.addColumn({ type: 'date', id: 'Start' });
+      dataTable.addColumn({ type: 'date', id: 'End' });
+      dataTable.addRows([
+        [ 'Magnolia Room', 'Google Charts', new Date(0,0,0,14,0,0), new Date(0,0,0,15,0,0)],
+        [ 'Magnolia Room', 'App Engine',    new Date(0,0,0,15,0,0), new Date(0,0,0,16,0,0)]]);
+
+      var options = {
+        timeline: { showRowLabels: false },
+        avoidOverlappingGridLines: false
+      };
+
+      chart.draw(dataTable, options);
+    }
+
+  </script>
+
+  <div id="example7.1" style="height: 200px;"></div>
 
 
 
