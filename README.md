@@ -62,6 +62,9 @@ ORDER BY ?museeLabel
 # Jeu de données
 Les jeux de données utilisés : ...
 
+<iframe style="width: 55vw; height: 50vh; border: none;" src="https://umap.openstreetmap.fr/fr/map/anonymous-edit/1012704:kENiXFDAxkGvq7OnA8wJdp0jXJTO1YuJgahJUit8--w" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
+
 # OpenRefine & WikiData
 Utilisation d'OpenRefine et WikiData
 
