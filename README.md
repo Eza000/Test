@@ -49,7 +49,8 @@ Go sur Wikidata !
 
 ## Deuxième visualisation
 *Ici : Fréq des Musées de France à Paris*
-<div class="flourish-embed flourish-chart" data-src="visualisation/16527002"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/16564513"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 
 ## Troisième visualisation
 *Ici : Timeline des à Paris*
