@@ -45,12 +45,11 @@ Go sur Wikidata !
 </script>
 
 *Ici : Map des Musées de France à Paris*
-<iframe width="100%" height="800px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/map_v3_1015509?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=false&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=true&captionMenus=true&starControl=false&editinosmControl=false&locateControl=false&fullscreenControl=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/map_v3_1015509?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=false&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=true&captionMenus=true&starControl=false&editinosmControl=false&locateControl=false&fullscreenControl=true">Voir en plein écran</a></p>
+<iframe width="100%" height="800px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/les-musees-parisiens_1015509?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=true&captionMenus=true&fullscreenControl=true&locateControl=false&editinosmControl=false&starControl=false"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/les-musees-parisiens_1015509?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=true&captionMenus=true&fullscreenControl=true&locateControl=false&editinosmControl=false&starControl=false">Voir en plein écran</a></p>
 
 ## Deuxième visualisation
 *Ici : Fréq des Musées de France à Paris*
 <div class="flourish-embed flourish-chart" data-src="visualisation/16564513"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
 
 ## Troisième visualisation
 *Ici : Timeline des à Paris*
