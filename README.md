@@ -1,26 +1,6 @@
-# Test
-Test
+## 1. Tableau des musées situés à Paris labélisés "Musées de France"
 
-# Présentation du sujet
-
-Parce qu’il n’y avait pas assez de données sur les Français descendants d’immigrés pakistanais en France. Un sujet qui me tient à cœur (pour des raisons évidentes si vous me connaissez).
-
-Un autre sujet qui me tient à cœur est mon âge. Je suis sur le point d’avoir 26 ans et je me rends compte que les musées vont devenir payants pour moi. Je n’aime même pas allez au musée, sauf le Musée d’Orsay, bien sûr.
-
-Cela ne m’empêche pas de me poser quelques questions :
-* Combien il y a-t-il de musée dans la ville de Paris (où j’habite) ?
-* Lesquels sont-ils ?
-* Quel est le profil des gens qui les fréquentent ? 
-    * Quel groupe d’âge visite le plus les musées ? 
-    * Il y a-t-il plus de femmes que d’hommes ?
-    * Est-ce que l’envie d’aller au musée à un rapport avec le niveau et le domaine d’études ?
-    * Il y a-t-il plus de Parisiens que touristes ?
-
-# Comment répondre à ces question ? Avec l’Open Data ! Peut-être…
-
-## Les Musées
-
-La plateforme open data de la Région Île-de-France m’a fourni un jeu de données initial : La liste des Musées de France.
+Source : <a href="https://data.iledefrance.fr/explore/dataset/liste_des_musees_franciliens/information/?disjunctive.region_administrative&disjunctive.departement&basemap=mbs-5ffe02&location=8,48.73083,3.06793"> Région Île-de-France m’a fourni un jeu de données initial </a>.
 
 Avec un filtre sur OpenRefine je me suis retrouvée avec les 49 musées dans le département de Paris. Ou plutôt, les 49 « institutions dotées de l'appellation "Musée de France" au sens du Code du patrimoine. »
 
@@ -75,8 +55,6 @@ ORDER BY ?museeLabel
 
 ## Fréq évolution
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/16601092"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-
-
 
 
 # Conclusion
