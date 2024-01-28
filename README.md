@@ -4,7 +4,7 @@
 
 _[Source : Région Île-de-France](https://data.iledefrance.fr/explore/dataset/liste_des_musees_franciliens/information/?disjunctive.region_administrative&disjunctive.departement&basemap=mbs-5ffe02&location=8,48.73083,3.06793)_
 
-**Dans un premier temps je veux juste voir les musées situés à Paris et labélisés "Musées de France" :**
+**Dans un premier temps, je veux juste voir les musées situés à Paris et labélisés "Musées de France" :**
 
 <iframe title="Musées situés à Paris labélisés &quot;Musée de France&quot;" aria-label="Tableau" id="datawrapper-chart-mbgXq" src="https://datawrapper.dwcdn.net/mbgXq/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="887" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
@@ -12,7 +12,7 @@ _[Source : Région Île-de-France](https://data.iledefrance.fr/explore/dataset/l
 
 # 2. Requête Wikidata
 
-**Je veux faire une requête permettant de recenser les musées situés à Paris et affcihé les résultats :**
+**Je veux faire une requête permettant de recenser tout les musées situés à Paris et affciher les résultats :**
 
 ```sparql
 # Listes des musées situés à Paris et leur coordonnées géographiques (latitude, longitude) 
@@ -39,37 +39,35 @@ ORDER BY ?museeLabel
 
 # 3. Map
 
-**Je veux afficher ces musées sur une carte :**
+**Je veux afficher les musées parisiens sur une carte, avec une distinction entre les "Musées de France" et les musées tout court :**
 
 <iframe width="100%" height="800px" frameborder="0" allowfullscreen allow="geolocation" src="//umap.openstreetmap.fr/fr/map/les-musees-parisiens_1015509?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=true&captionMenus=true&fullscreenControl=true&locateControl=false&editinosmControl=false&starControl=false"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/les-musees-parisiens_1015509?scaleControl=true&miniMap=true&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=true&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=caption&captionBar=true&captionMenus=true&fullscreenControl=true&locateControl=false&editinosmControl=false&starControl=false">Voir en plein écran</a></p>
 
 
 # 4. Timeline
 
-**Je veux voir les "Musées de France" de Paris, du plus ancient au plus récent et répartit par arrondissement. Cependant je n'arrive pas à chosir quelle option de visualisation est la plus pertinente :**
+**Je veux voir la création des "Musées de France" de Paris, du plus ancient au plus récent et réparti par arrondissement. Cependant je n'arrive pas à chosir quelle option de visualisation est la plus pertinente :**
 
 
 ## Option 1
-**L'axe des X reste le même pour chaque option mais l'axe des Y change. Ici, il s'agit des arrondissment dans l'ordre. 
-On peut ainsi voir sur chaque ligne la création des musées, du plus ancien au plus récent. 
-On peut isoler dans la légende un arrondissment pour voir la chronologie de la création des musées dans un arrondissement spécifique ou chercher un musée spécifique la liste déroulante.
-La couleur dépend de l'arrdt du musuée.**
+*L'axe des X (les dates) reste le même pour chaque option mais l'axe des Y change. Ici, il s'agit des arrondissments dans l'ordre. 
+*On peut ainsi voir sur chaque ligne la création des musées, du plus ancien au plus récent. 
+*On peut isoler dans la légende un arrondissment pour voir la chronologie de la création des musées dans cet arrdt spécifique ou chercher un musée précis dans la liste déroulante.
+*La couleur dépend de l'arrdt du musuée.
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16601496"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Option 2
-**Ici, l'axe des Y est le même mais l'ordre est celui de la création des musées.
-On peut ainsi voir que le premier musée de France créer est dans le 4ème arrdt et le dernier dans le 15ème directment l'axe.
-On peut isoler dans la légende un musée spécifique ou chercher un arrdt dans la liste déroulante pour voir la chronologie de la création des musées dans cet arrdt.
-La couleur dépend du nom du musuée.**
+*Ici, l'axe des Y est le même mais l'ordre est celui de la création des musées.
+*On peut ainsi voir directment sur l'axe que le premier musée de France créé est dans le 4ème arrdt et le dernier dans le 15ème.
+*On peut isoler dans la légende un musée spécifique ou chercher un arrdt dans la liste déroulante pour voir la chronologie de la création des musées dans cet arrdt.
+*La couleur dépend du nom du musuée.
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16601384"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Option 3
-**Ici, l'axe des Y est la liste des musées.
-On peut ainsi voir l'ordre de la création des musées peut importe l'arrdt.
-On peut isoler dans la légende un musée spécifique ou chercher un arrdt dans la liste déroulante pour voir la chronologie de la création des musées dans cet arrdt.
-La couleur dépend du nom du musuée.
-On peut isoler dans la légende un arrondissment pour voir la chronologie de la création des musées dans un arrondissement spécifique ou chercher un musée spécifique la liste déroulante.
-La couleur dépend de l'arrdt du musuée.****
+*Ici, l'axe des Y est la liste des musées du plus ancien au plus récent.
+*On peut ainsi voir l'ordre de la création des musées peut importe l'arrdt.
+*On peut isoler dans la légende un arrondissment pour voir la chronologie de la création des musées dans un arrdt ou chercher un musée spécifique la liste déroulante.
+*La couleur dépend de l'arrdt du musée.
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16600049"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
@@ -77,7 +75,7 @@ La couleur dépend de l'arrdt du musuée.****
 
 _[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep)_
 
-**Je veux voir les 10 musées les plus visités chaqhue années de 2011 à 2021 avec la part des entrée gratuite et des entrées payantes :**
+**Je veux voir les 10 musées les plus visités chaqhue années de 2011 à 2021 avec la part des entrées gratuite et des entrées payantes :**
 <div class="flourish-embed flourish-chart" data-src="visualisation/16601101"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
@@ -85,7 +83,7 @@ _[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/datase
 
 _[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep)_
 
-**Je veux voir les tendances d'évolution de la fréentation des musées de 2001 à 2021 avec les musées les plus visités et les moins visités chaqhue années :**
+**Je veux voir les tendances d'évolution de la fréquentation des musées de 2001 à 2021 avec les musées les plus visités et les moins visités chaque année :**
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/16601092"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ---
