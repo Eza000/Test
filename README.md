@@ -50,24 +50,24 @@ ORDER BY ?museeLabel
 
 
 ## Option 1
-*L'axe des X (les dates) reste le même pour chaque option mais l'axe des Y change. Ici, il s'agit des arrondissments dans l'ordre. 
-*On peut ainsi voir sur chaque ligne la création des musées, du plus ancien au plus récent. 
-*On peut isoler dans la légende un arrondissment pour voir la chronologie de la création des musées dans cet arrdt spécifique ou chercher un musée précis dans la liste déroulante.
-*La couleur dépend de l'arrdt du musuée.
+* L'axe des X (les dates) reste le même pour chaque option mais l'axe des Y change. Ici, il s'agit des arrondissments dans l'ordre. 
+* On peut ainsi voir sur chaque ligne la création des musées, du plus ancien au plus récent. 
+* On peut isoler dans la légende un arrondissment pour voir la chronologie de la création des musées dans cet arrdt spécifique ou chercher un musée précis dans la liste déroulante.
+* La couleur dépend de l'arrdt du musuée.
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16601496"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Option 2
-*Ici, l'axe des Y est le même mais l'ordre est celui de la création des musées.
-*On peut ainsi voir directment sur l'axe que le premier musée de France créé est dans le 4ème arrdt et le dernier dans le 15ème.
-*On peut isoler dans la légende un musée spécifique ou chercher un arrdt dans la liste déroulante pour voir la chronologie de la création des musées dans cet arrdt.
-*La couleur dépend du nom du musuée.
+* Ici, l'axe des Y est le même mais l'ordre est celui de la création des musées.
+* On peut ainsi voir directment sur l'axe que le premier musée de France créé est dans le 4ème arrdt et le dernier dans le 15ème.
+* On peut isoler dans la légende un musée spécifique ou chercher un arrdt dans la liste déroulante pour voir la chronologie de la création des musées dans cet arrdt.
+* La couleur dépend du nom du musuée.
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16601384"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ## Option 3
-*Ici, l'axe des Y est la liste des musées du plus ancien au plus récent.
-*On peut ainsi voir l'ordre de la création des musées peut importe l'arrdt.
-*On peut isoler dans la légende un arrondissment pour voir la chronologie de la création des musées dans un arrdt ou chercher un musée spécifique la liste déroulante.
-*La couleur dépend de l'arrdt du musée.
+* Ici, l'axe des Y est la liste des musées du plus ancien au plus récent.
+* On peut ainsi voir l'ordre de la création des musées peut importe l'arrdt.
+* On peut isoler dans la légende un arrondissment pour voir la chronologie de la création des musées dans un arrdt ou chercher un musée spécifique la liste déroulante.
+* La couleur dépend de l'arrdt du musée.
 <div class="flourish-embed flourish-scatter" data-src="visualisation/16600049"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
