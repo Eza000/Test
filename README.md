@@ -3,6 +3,8 @@ _[Source : Région Île-de-France](https://data.iledefrance.fr/explore/dataset/l
 
 _[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep)_
 
+_[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep)_
+
 
 # 1. Les "Musées de France" en Île-de-France
 <iframe title="Les &quot;Musées de France&quot; en Île-de-France" aria-label="Carte" id="datawrapper-chart-2JZHu" src="https://datawrapper.dwcdn.net/2JZHu/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="808" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
@@ -50,11 +52,7 @@ ORDER BY ?museeLabel
 
 
 # Fréquentation des musées : Evolution de 2001 à 2011
-
-_[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep)_
-
-**Je veux voir les tendances d'évolution de la fréquentation des musées de 2001 à 2021 avec les musées les plus visités et les moins visités chaque année :**
-<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/16601092"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/16635811"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 ---
 
