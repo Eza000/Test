@@ -26,14 +26,14 @@ C'est dans cette perspective d’organisation de Sorties Musées que je me pose 
 
 La plateforme open data de la Région Île-de-France m’a fourni mon jeu de données initial : [La liste des Musées de France](https://data.iledefrance.fr/explore/dataset/liste_des_musees_franciliens/information/?disjunctive.region_administrative&disjunctive.departement) (liste-des-musees-franciliens-V2.csv). Il s’agit d’un fichier de 133 lignes recensant toutes les « institutions dotées de l'appellation "Musée de France" au sens du Code du patrimoine. » Je note donc qu’il ne s’agit pas de tous les musées d’Île-de-France.
 
-J’ai tiré mes deux autres jeux de données de la plateforme de données ouvertes du ministère de la Culture : [Fréquentation des Musées de France](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep) (frequentation-des-musees-de-France-V2.csv et frequentation-totale-mdf-2001-a-2016-V2.csv).
+J’ai tiré mes deux autres jeux de données de la plateforme de données ouvertes du ministère de la Culture : [Fréquentation des Musées de France](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep) (frequentation-des-musees-de-France-V2.csv et frequentation-totale-mdf-2001-a-2016-V2.csv). On trouve dans les deux jeux de données, la fréquentation totale, payante et gratuite dans les Musées de France, de 2001 à 2016 dans un jeu de données et de 2001 à 2021 dans l'autre.
 
 Un Srpint Qualité allégé m’a permis de vérifier que chaque jeu de données était : 
 * facilement accessible, 
 * sous licence ouverte, 
-* disponible au téléchargement sous différents formats (CSV, JSON, Excel, etc.)
-* très bien documenté
-* sans de gros problèmes de syntaxe, de valeurs suspectes, de valeurs manquantes ou de doublons (bien que je me suis rendu compte au fur et à mesure de mon exploration qu’il y avait bien quelques corrections à faire)
+* disponible au téléchargement sous différents formats (CSV, JSON, Excel, etc.),
+* très bien documenté,
+* sans de gros problèmes de syntaxe, de valeurs suspectes, de valeurs manquantes ou de doublons (bien que je me suis rendu compte au fur et à mesure de mon exploration qu’il y avait bien quelques corrections à faire),
 * sans données ou contenu problématique, que cela soit au niveau réglementaire ou autre.
 
 Ces jeux de données couplés aux outils comme OpenRefine, Datwrapper, Flourish et uMap m’ont permis de traiter et visualiser les données afin de pouvoir organiser au mieux mes Sorties Musées.
