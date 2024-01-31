@@ -1,22 +1,16 @@
 # Musées ou pas musées, telle est la question.
-_[Source : Région Île-de-France](https://data.iledefrance.fr/explore/dataset/liste_des_musees_franciliens/information/?disjunctive.region_administrative&disjunctive.departement&basemap=mbs-5ffe02&location=8,48.73083,3.06793)_
 
-_[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep)_
-
-_[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep)_
-
-
-## Sommaire : 
+# Sommaire : 
 1. [Pourquoi ce sujet ?](#1)
-2. [Titre](#1)
-3. [Titre](#1)
-4. [Titre](#1)
-5. [Titre](#1)
-6. [Titre](#1)
-7. [Titre](#1)
+2. [Comment répondre à ces questions ? Avec l’Open Data !](#2)
+3. [Commençons par l’Île-de-France…](#3)
+4. [Titre](#4)
+5. [Titre](#5)
+6. [Titre](#6)
+7. [Titre](#7)
 
 
-## 1. Pourquoi ce sujet ? <a name="1"></a>
+# 1. Pourquoi ce sujet ? <a name="1"></a>
 
 Parce qu’il n’y avait pas assez de données sur les Français descendants d’immigrés pakistanais en France. Un sujet qui me tient à cœur (pour des raisons évidentes si vous me connaissez).
 
@@ -28,6 +22,23 @@ C'est dans cette perspective d’organisation de Sorties Musées que je me pose 
 * Par quels musées devrais-je commencer mes Sorties Musées ? Les plus fréquentés peut-être ?
 * (Est-ce que l’envie d’aller au musée à un rapport avec le revenu ?)
 
+# 2. Comment répondre à ces questions ? Avec l’Open Data ! <a name="2"></a>
+
+La plateforme open data de la Région Île-de-France m’a fourni mon jeu de données initial : [La liste des Musées de France](https://data.iledefrance.fr/explore/dataset/liste_des_musees_franciliens/information/?disjunctive.region_administrative&disjunctive.departement) (liste-des-musees-franciliens-V2.csv). Il s’agit d’un fichier de 133 lignes recensant toutes les « institutions dotées de l'appellation "Musée de France" au sens du Code du patrimoine. » Je note donc qu’il ne s’agit pas de tous les musées d’Île-de-France.
+
+J’ai tiré mes deux autres jeux de données de la plateforme de données ouvertes du ministère de la Culture : [Fréquentation des Musées de France](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep) (frequentation-des-musees-de-France-V2.csv et frequentation-totale-mdf-2001-a-2016-V2.csv).
+
+Un Srpint Qualité allégé m’a permis de vérifier que chaque jeu de données était : 
+* facilement accessible, 
+* sous licence ouverte, 
+* disponible au téléchargement sous différents formats (CSV, JSON, Excel, etc.)
+* très bien documenté
+* sans de gros problèmes de syntaxe, de valeurs suspectes, de valeurs manquantes ou de doublons (bien que je me suis rendu compte au fur et à mesure de mon exploration qu’il y avait bien quelques corrections à faire)
+* sans données ou contenu problématique, que cela soit au niveau réglementaire ou autre.
+
+Ces jeux de données couplés aux outils comme OpenRefine, Datwrapper, Flourish et uMap m’ont permis de traiter et visualiser les données afin de pouvoir organiser au mieux mes Sorties Musées.
+
+## 3. Commençons par l’Île-de-France… <a name="3"></a>
 
 
 ## 1. Titre <a name="1"></a>
