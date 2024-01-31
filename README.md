@@ -6,6 +6,32 @@ _[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/datase
 _[Source : Ministère de la Culture](https://data.culture.gouv.fr/explore/dataset/frequentation-des-musees-de-france/export/?disjunctive.nomdep)_
 
 
+## Sommaire : 
+1. [Pourquoi ce sujet ?](#1)
+2. [Titre](#1)
+3. [Titre](#1)
+4. [Titre](#1)
+5. [Titre](#1)
+6. [Titre](#1)
+7. [Titre](#1)
+
+
+## 1. Pourquoi ce sujet ? <a name="1"></a>
+
+Parce qu’il n’y avait pas assez de données sur les Français descendants d’immigrés pakistanais en France. Un sujet qui me tient à cœur (pour des raisons évidentes si vous me connaissez).
+
+Un autre sujet qui me tient à cœur est mon âge. Je suis sur le point d’avoir 26 ans et je vais donc devoir payer mon entrée au musée. Mes derniers jours de jeunesse me poussent à sortir et profiter de la gratuité des musées... avant la fin.
+
+C'est dans cette perspective d’organisation de Sorties Musées que je me pose quelques questions : 
+* Combien est-ce qu'il y a de musées en Île-de-France ?
+* Lesquels sont-ils ?
+* Par quels musées devrais-je commencer mes Sorties Musées ? Les plus fréquentés peut-être ?
+* (Est-ce que l’envie d’aller au musée à un rapport avec le revenu ?)
+
+
+
+## 1. Titre <a name="1"></a>
+
 # 1. Les "Musées de France" en Île-de-France
 <iframe title="Les &quot;Musées de France&quot; en Île-de-France" aria-label="Carte" id="datawrapper-chart-2JZHu" src="https://datawrapper.dwcdn.net/2JZHu/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="808" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
